@@ -1,8 +1,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person
+@interface Person : NSObject
 
-- (void)log:(NSString *)str;
++ (void)log:(NSString *)str;
 
 @end
